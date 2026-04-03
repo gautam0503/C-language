@@ -6,12 +6,13 @@ int a=5;
 int b=5;
 double c=pow(a, b);
 printf("%04.0f\n",c);
+
 // without inbuilt function
  int x=10;
  int y=2;
  printf("%d",power(x,y));
- //Angle function 
 
+ //Angle function 
     #define pi 3.14
     #define max 180
     int angle;
@@ -21,13 +22,11 @@ printf("%04.0f\n",c);
     while(angle<=max){
         f =(pi/max)*angle;
         e=cos(f);
-
-        printf("%3.2f\n",e);
+     printf("%3.2f\n",e);
         angle=angle+10;
-        
     }
 }
- 
+
 int power(int c,int d){
     int result=1;
     for(int i=1;i<=d;i++){
