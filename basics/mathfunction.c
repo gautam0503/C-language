@@ -10,7 +10,24 @@ printf("%04.0f\n",c);
  int x=10;
  int y=2;
  printf("%d",power(x,y));
- }
+ //Angle function 
+
+    #define pi 3.14
+    #define max 180
+    int angle;
+    float f,e;
+    angle=0;
+    printf("%3.2f\n",cos(1));
+    while(angle<=max){
+        f =(pi/max)*angle;
+        e=cos(f);
+
+        printf("%3.2f\n",e);
+        angle=angle+10;
+        
+    }
+}
+ 
 int power(int c,int d){
     int result=1;
     for(int i=1;i<=d;i++){
