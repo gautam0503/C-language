@@ -1,1 +1,4 @@
 *.exe
+.vscode/
+tempCodeRunnerFile.c
+tempCodeRunnerFile.exe
